@@ -1,0 +1,26 @@
+html{
+	text-align:center;
+}
+.start_button{
+	color: white; 
+	background:purple; 
+	font-size:2em; 
+	border-radius:0.5em; 
+	padding:5px 20px;
+}
+.answer{
+	display: inline-block;
+}
+.result_button{
+	color: white; 
+	background:red; 
+	font-size:1em; 
+	border-radius:0.5em; 
+	padding:5px 10px;
+}
+.b-container{
+	display:inline-block;
+}
+#test{
+	line-height:1em;
+}

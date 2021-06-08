@@ -1,0 +1,20 @@
+{
+  "name": "2017116586",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculate.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.13"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

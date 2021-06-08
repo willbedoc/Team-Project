@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Question #1</title>
+	<script src = "jquery.js"></script>
+	<link rel = "stylesheet" href = "style.css"> 
+	<script src = "calculate.js"></script>
+</head>
+<body>
+	<header>
+		<div class = "h-image">
+			<img src = "suicide.jpg" alt = "" width = "400px" height = "200px">
+		</div>
+		<div class = "atag">
+			<a href = "http://spckorea.or.kr" target = "_blank">그럼에도 자살이 하고 싶다면....?</a>
+		</div>
+	</header>
+	<section>
+		<div id = "test">
+			<div>
+				<h5>1. 자살에 대해 생각해보신 적 있으십니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer1" value = "0">전혀 없다
+					<input type = "radio" name = "answer1" value = "1">한 두 번 했다
+					<input type = "radio" name = "answer1" value = "2">종종 한다
+					<input type = "radio" name = "answer1" value = "3">자주 한다
+					<input type = "radio" name = "answer1" value = "4">항상 한다
+				</form>
+			</div>
+			<p/>
+			<div>
+				<h5>2. 현재 생활 스트레스로 인해 얼마나 고통을 느끼고 계십니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer2" value = "0">없다
+					<input type = "radio" name = "answer2" value = "1">약간
+					<input type = "radio" name = "answer2" value = "2">보통
+					<input type = "radio" name = "answer2" value = "3">심각
+					<input type = "radio" name = "answer2" value = "4">매우 심각
+				</form>
+			</div>
+			<p/>
+			<div>
+				<h5>3. 자살하기 위해 어떤 계획을 갖고 있습니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer3" value = "0">없다
+					<input type = "radio" name = "answer3" value = "1">약간
+					<input type = "radio" name = "answer3" value = "2">보통
+					<input type = "radio" name = "answer3" value = "3">구체적
+					<input type = "radio" name = "answer3" value = "4">매우 구체적
+				</form>
+			</div>
+			<p/>
+			<div>
+				<h5>4. 자살하기 위해 어떻게 준비해 오셨습니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer4" value = "0">없다
+					<input type = "radio" name = "answer4" value = "1">약간
+					<input type = "radio" name = "answer4" value = "2">보통
+					<input type = "radio" name = "answer4" value = "3">철저히
+					<input type = "radio" name = "answer4" value = "4">매우 철저히
+				</form>
+			</div>
+			<div>
+				<h5>5. 이전에 자살을 시도하신 적이 있으십니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer5" value = "0">전혀 없다
+					<input type = "radio" name = "answer5" value = "1">자살 위협
+					<input type = "radio" name = "answer5" value = "2">예측 가능 시도
+					<input type = "radio" name = "answer5" value = "3">한 두 번 시도
+					<input type = "radio" name = "answer5" value = "4">여러 번 시도
+				</form>
+			</div>
+			<div>
+				<h5>6. 심리적 문제로 정신과 치료 혹은 상담을 받으신 적 있으십니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer6" value = "0">없다
+					<input type = "radio" name = "answer6" value = "1">상담
+					<input type = "radio" name = "answer6" value = "2">치료 (1회)
+					<input type = "radio" name = "answer6" value = "3">치료 (2회 이상)
+					<input type = "radio" name = "answer6" value = "4">현재 치료중
+				</form>
+			</div>
+			<div>
+				<h5>7. 알코올이나 약물을 복용하셨습니까? (지금 현재)</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer7" value = "0">없다
+					<input type = "radio" name = "answer7" value = "1">약간
+					<input type = "radio" name = "answer7" value = "2">보통
+					<input type = "radio" name = "answer7" value = "3">심각
+					<input type = "radio" name = "answer7" value = "4">중독 수준
+				</form>
+			</div>
+			<div>
+				<h5>8. 사랑하는 가족이나 친구가 자살을 한 적이 있습니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer8" value = "0">없다
+					<input type = "radio" name = "answer8" value = "1">친구 자살
+					<input type = "radio" name = "answer8" value = "2">가족 자살 시도
+					<input type = "radio" name = "answer8" value = "3">가족 자살
+					<input type = "radio" name = "answer8" value = "4">최근 가족 자살
+				</form>
+			</div>
+			<div>
+				<h5>9. 자기 자신을 도와줄 친구, 이웃, 가족, 혹은 기관이 있습니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer9" value = "0">충분
+					<input type = "radio" name = "answer9" value = "1">있음
+					<input type = "radio" name = "answer9" value = "2">보통
+					<input type = "radio" name = "answer9" value = "3">약간
+					<input type = "radio" name = "answer9" value = "4">없다
+				</form>
+			</div>
+			<div>
+				<h5>10. 삶의 이유가 얼마나 있다고 보십니까?</h5>
+			</div>
+			<div>
+				<form class = "answer">
+					<input type = "radio" name = "answer10" value = "0">매우 크다
+					<input type = "radio" name = "answer10" value = "1">크다
+					<input type = "radio" name = "answer10" value = "2">보통
+					<input type = "radio" name = "answer10" value = "3">약간
+					<input type = "radio" name = "answer10" value = "4">없다
+				</form>
+			</div>
+			<div>
+				<button class = "result_button" type = "button" onclick = "calculate()">내 점수 보기</button>
+			</div>
+		</div>
+		<p><span id = "result"></span></p>
+		<p><span id = "status"></span></p>
+	</section>
+</body>
+</html>
